@@ -16,11 +16,6 @@ export const Footer: FunctionComponent = () => {
         <div className="text-xs text-muted-foreground hidden lg:block">
         </div>
         <div>
-          <Link href="/rss">
-            <Button variant="ghost" className="p-2">
-              <Rss className="w-4 h-4" />
-            </Button>
-          </Link>
           <DarkModeToggle />
         </div>
       </div>
